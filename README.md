@@ -1,4 +1,4 @@
-math-digamma
+digamma 
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -132,20 +132,20 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [npm-image]: http://img.shields.io/npm/v/math-digamma.svg
 [npm-url]: https://npmjs.org/package/math-digamma
 
-[build-image]: http://img.shields.io/travis/math.io/digamma/master.svg
-[build-url]: https://travis-ci.org/math.io/digamma
+[build-image]: http://img.shields.io/travis/math-io/digamma/master.svg
+[build-url]: https://travis-ci.org/math-io/digamma
 
-[coverage-image]: https://img.shields.io/codecov/c/github/math.io/digamma/master.svg
-[coverage-url]: https://codecov.io/github/math.io/digamma?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/math-io/digamma/master.svg
+[coverage-url]: https://codecov.io/github/math-io/digamma?branch=master
 
-[dependencies-image]: http://img.shields.io/david/math.io/digamma.svg
-[dependencies-url]: https://david-dm.org/math.io/digamma
+[dependencies-image]: http://img.shields.io/david/math-io/digamma.svg
+[dependencies-url]: https://david-dm.org/math-io/digamma
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/math.io/digamma.svg
-[dev-dependencies-url]: https://david-dm.org/dev/math.io/digamma
+[dev-dependencies-image]: http://img.shields.io/david/dev/math-io/digamma.svg
+[dev-dependencies-url]: https://david-dm.org/dev/math-io/digamma
 
-[github-issues-image]: http://img.shields.io/github/issues/math.io/digamma.svg
-[github-issues-url]: https://github.com/math.io/digamma/issues
+[github-issues-image]: http://img.shields.io/github/issues/math-io/digamma.svg
+[github-issues-url]: https://github.com/math-io/digamma/issues
 
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
