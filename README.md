@@ -7,7 +7,7 @@ digamma
 The [digamma function][digamma-function] `ψ` is the logarithmic derivative of the [gamma function][gamma-function], i.e.
 
 <div class="equation" align="center" data-raw-text="\psi(x) =\frac{d}{dx} \ln{\Gamma(x)}= \frac{\Gamma\,'(x)}{\Gamma(x)}. " data-equation="eq:digamma_function">
-	<img src="https://cdn.rawgit.com/compute-io/digamma/f45b8572ebf552ca7e55d0ce0ab3a485e6b8cbe5/docs/img/eqn.svg" alt="Equation of the digamma function.">
+	<img src="https://cdn.rawgit.com/math-io/digamma/4c0980aeb7de5af0a1e8cc028f6b3d53bae6f63f/docs/img/eqn.svg" alt="Equation of the digamma function.">
 	<br>
 </div>
 
