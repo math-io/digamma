@@ -1,10 +1,10 @@
-digamma 
+digamma
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Digamma function.
 
-The [digamma function](digamma-function) `ψ` is the logarithmic derivative of the [gamma function](gamma-function), i.e.
+The [digamma function][digamma-function] `ψ` is the logarithmic derivative of the [gamma function][gamma-function], i.e.
 
 <div class="equation" align="center" data-raw-text="\psi(x) =\frac{d}{dx} \ln{\Gamma(x)}= \frac{\Gamma\,'(x)}{\Gamma(x)}. " data-equation="eq:digamma_function">
 	<img src="https://cdn.rawgit.com/compute-io/digamma/f45b8572ebf552ca7e55d0ce0ab3a485e6b8cbe5/docs/img/eqn.svg" alt="Equation of the digamma function.">
@@ -26,7 +26,7 @@ var digamma = require( 'math-digamma' );
 
 #### digamma( x )
 
-Evaluates the [digamma function](digamma-function).
+Evaluates the [digamma function][digamma-function].
 
 ``` javascript
 var val = digamma( -2.5 );
@@ -47,7 +47,7 @@ val = digamma( 10 );
 
 ## Implementation
 
-The routine used to evaluate the digamma function was adapted from the Boost C++ library. See the corresponding [documentation section](boost-digamma) of the Boost library for implementation details.
+The routine used to evaluate the digamma function was adapted from the Boost C++ library. See the corresponding [documentation section][boost-digamma] of the Boost library for implementation details.
 
 ## Examples
 
