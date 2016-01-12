@@ -12,8 +12,8 @@
       "email": "pburckhardt@outlook.com"
     },
     {
-    	"name": "Athan Reines",
-    	"email": "kgryte@gmail.com"
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
     }
   ],
   "scripts": {
@@ -50,6 +50,9 @@
   },
   "dependencies": {
     "compute-polynomial": "^1.1.0",
+    "math-floor": "^1.0.0",
+    "math-ln": "^1.0.0",
+    "math-tan": "^1.0.0",
     "validate.io-nan": "^1.0.3"
   },
   "devDependencies": {
@@ -58,11 +61,11 @@
     "istanbul": "^0.4.1",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
+    "math-abs": "^1.0.2",
     "tap-spec": "4.x.x",
     "tape": "4.x.x",
     "testling": "1.x.x",
-    "validate.io-finite": "^1.0.0",
-    "validate.io-negative-zero": "^1.0.0"
+    "validate.io-finite": "^1.0.0"
   },
   "testling": {
     "files": [

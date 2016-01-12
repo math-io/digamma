@@ -4,6 +4,7 @@
 
 var test = require( 'tape' );
 var isfinite = require( 'validate.io-finite' );
+var isnan = require( 'validate.io-nan' );
 var abs = require( 'math-abs' );
 var digamma = require( './../lib' );
 
@@ -51,10 +52,17 @@ test( 'the function evaluates the digamma function', function test( t ) {
 	var i;
 	for ( i = 0; i < data.length; i++ ) {
 		actual =  digamma( data[ i ] );
+
 		b1 = isfinite( actual );
 		b2 = isfinite( expected[ i ] );
-		t.ok( b1, b2, 'returned result is ' + ( (b2) ? 'finite' : 'infinite' ) );
-		t.ok( abs( actual - expected[ i ] ) < 1e-14, 'returned result is within tolerance. actual: ' + actual + '; expected: ' + expected[ i ] + '.' );
+		t.equal( b1, b2, 'returned result is ' + ( (b2) ? 'finite' : 'not finite' ) );
+
+		b1 = isnan( actual );
+		b2 = isnan( expected[ i ] );
+		t.equal( b1, b2, 'returned result is ' + ( (b1) ? '' : 'not' ) + ' NaN' );
+		if ( !b1 ) {
+			t.ok( abs( actual - expected[ i ] ) < 1e-14, 'returned result is within tolerance. actual: ' + actual + '; expected: ' + expected[ i ] + '.' );
+		}
 	}
 	t.end();
 });
