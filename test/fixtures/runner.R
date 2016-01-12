@@ -6,9 +6,5 @@ y = digamma( x )
 
 cat( y, sep = ",\n" )
 
-data = list(
-	data = x,
-	expected = y
-)
-
-write( toJSON( data, digits = 16, auto_unbox = TRUE ), "./test/fixtures/output.json" )
+write( toJSON( x, digits = 16, auto_unbox = TRUE ), "./test/fixtures/data.json" )
+write( toJSON( y, digits = 16, auto_unbox = TRUE ), "./test/fixtures/expected.json" )

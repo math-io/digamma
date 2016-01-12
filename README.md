@@ -2,14 +2,15 @@ digamma
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Digamma function.
+> [Digamma][digamma-function] function.
 
 The [digamma function][digamma-function] `ψ` is the logarithmic derivative of the [gamma function][gamma-function], i.e.
 
-<div class="equation" align="center" data-raw-text="\psi(x) =\frac{d}{dx} \ln{\Gamma(x)}= \frac{\Gamma\,'(x)}{\Gamma(x)}. " data-equation="eq:digamma_function">
-	<img src="https://cdn.rawgit.com/math-io/digamma/4c0980aeb7de5af0a1e8cc028f6b3d53bae6f63f/docs/img/eqn.svg" alt="Equation of the digamma function.">
+<div class="equation" align="center" data-raw-text="\psi(x) =\frac{d}{dx} \ln{\Gamma(x)}= \frac{\Gamma\,'(x)}{\Gamma(x)}." data-equation="eq:digamma_function">
+	<img src="https://cdn.rawgit.com/math-io/digamma/4c0980aeb7de5af0a1e8cc028f6b3d53bae6f63f/docs/img/eqn.svg" alt="Digamma function.">
 	<br>
 </div>
+
 
 ## Installation
 
@@ -23,6 +24,7 @@ $ npm install math-digamma
 ``` javascript
 var digamma = require( 'math-digamma' );
 ```
+
 
 #### digamma( x )
 
@@ -45,9 +47,6 @@ val = digamma( 10 );
 // returns ~2.252
 ```
 
-## Implementation
-
-The routine used to evaluate the digamma function was adapted from the Boost C++ library. See the corresponding [documentation section][boost-digamma] of the Boost library for implementation details.
 
 ## Examples
 
@@ -59,7 +58,7 @@ var v;
 var i;
 
 for ( i = 0; i < 10; i++ ) {
-	x = Math.random() * 10 - 5;
+	x = Math.random()*10 - 5;
 	v = digamma( x );
 	console.log( 'x: %d, f(x): %d', x, v );
 }
@@ -70,6 +69,11 @@ To run the example code from the top-level application directory,
 ``` bash
 $ node ./examples/index.js
 ```
+
+
+## References
+
+*	[Boost][boost-digamma] C++ library.
 
 
 ---
