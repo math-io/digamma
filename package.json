@@ -43,7 +43,8 @@
     "gamma",
     "digamma",
     "scalar",
-    "number"
+    "number",
+    "psi"
   ],
   "bugs": {
     "url": "https://github.com/math-io/digamma/issues"
