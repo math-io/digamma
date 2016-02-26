@@ -34,17 +34,24 @@ Evaluates the [digamma function][digamma-function].
 var v = digamma( -2.5 );
 // returns ~1.103
 
-v = digamma( -1 );
-// returns NaN
-
-v = digamma( 0 );
-// returns NaN
-
 v = digamma( 1 );
 // returns ~-0.577
 
 v = digamma( 10 );
 // returns ~2.252
+```
+
+If `x` is `0` or a negative `integer`, the `function` returns `NaN`.
+
+``` javascript
+var v = digamma( 0 );
+// returns NaN
+
+v = digamma( -1 );
+// returns NaN
+
+v = digamma( -2 );
+// returns NaN
 ```
 
 If provided `NaN`, the `function` returns `NaN`.
