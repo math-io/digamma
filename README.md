@@ -31,20 +31,27 @@ var digamma = require( 'math-digamma' );
 Evaluates the [digamma function][digamma-function].
 
 ``` javascript
-var val = digamma( -2.5 );
+var v = digamma( -2.5 );
 // returns ~1.103
 
-val = digamma( -1 );
+v = digamma( -1 );
 // returns NaN
 
-val = digamma( 0 );
+v = digamma( 0 );
 // returns NaN
 
-val = digamma( 1 );
+v = digamma( 1 );
 // returns ~-0.577
 
-val = digamma( 10 );
+v = digamma( 10 );
 // returns ~2.252
+```
+
+If provided `NaN`, the `function` returns `NaN`.
+
+``` javascript
+var v = digamma( NaN );
+// returns NaN
 ```
 
 
