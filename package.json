@@ -67,7 +67,8 @@
     "tap-spec": "4.x.x",
     "tape": "4.x.x",
     "testling": "1.x.x",
-    "validate.io-finite": "^1.0.0"
+    "validate.io-finite": "^1.0.0",
+    "validate.io-nan": "^1.0.3"
   },
   "testling": {
     "files": [
