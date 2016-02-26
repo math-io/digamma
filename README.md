@@ -71,11 +71,6 @@ $ node ./examples/index.js
 ```
 
 
-## References
-
-*	[Boost][boost-digamma] C++ library.
-
-
 ---
 ## Tests
 
