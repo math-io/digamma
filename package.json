@@ -50,16 +50,17 @@
     "url": "https://github.com/math-io/digamma/issues"
   },
   "dependencies": {
+    "const-pi": "^1.0.3",
     "math-evalpoly": "^1.1.0",
     "math-evalrational": "^1.0.0",
     "math-floor": "^1.0.0",
     "math-ln": "^1.0.0",
-    "math-tan": "^1.0.0",
-    "validate.io-nan": "^1.0.3"
+    "math-tan": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "13.x.x",
     "codecov": "1.x.x",
+    "const-pinf-float64": "^1.0.0",
     "istanbul": "^0.4.1",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
@@ -67,7 +68,8 @@
     "tap-spec": "4.x.x",
     "tape": "4.x.x",
     "testling": "1.x.x",
-    "validate.io-finite": "^1.0.0"
+    "validate.io-finite": "^1.0.0",
+    "validate.io-nan": "^1.0.3"
   },
   "testling": {
     "files": [
